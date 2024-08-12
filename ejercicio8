@@ -1,0 +1,12 @@
+# Solicitar al usuario su peso en kg
+peso = float(input("Introduce tu peso en kg: "))
+
+# Solicitar al usuario su estatura en metros
+estatura = float(input("Introduce tu estatura en metros: "))
+
+# Calcular el índice de masa corporal (IMC)
+imc = peso / (estatura ** 2)
+
+# Mostrar el IMC redondeado a dos decimales
+print(f"Tu índice de masa corporal es {imc:.2f}")
+
